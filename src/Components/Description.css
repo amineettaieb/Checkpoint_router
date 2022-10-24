@@ -1,0 +1,136 @@
+.descPage {
+    display: flex;
+    flex-direction: column;
+  }
+  .descPage form {
+    text-align: center;
+  }
+  .descPage button {
+    background-color: #2b6777;
+    align-items: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    border: none;
+    color: white;
+    width: 40%;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    margin: 4px 7px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .DescContent {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 10px;
+  }
+  .DescContent img {
+    height: 500px;
+    width: 480px;
+    margin: 10px 10px;
+    border-radius: 10px;
+    box-shadow: 2px 0px 0px 2px rgb(70, 69, 69);
+  }
+  .InformationsColumn {
+    display: flex;
+    flex-direction: column;
+    margin: 3px 20px;
+  }
+  .InformationsColumn h1 {
+    font-size: 60px;
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+    color: #2b6777;
+    font-weight: bold;
+    margin: 20px 20px;
+  }
+  .rate-Type {
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+    align-content: space-between;
+    margin: 20px 20px;
+  }
+  .rate-Type h5 {
+    font-size: 20px;
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+    font-weight: bold;
+    color: #555454;
+    margin-left: 50px;
+    margin-top: 20px;
+  }
+  .Overview-Div h3 {
+    font-size: 30px;
+    font-family: "Times New Roman", Times, serif;
+    font-style: normal;
+    font-weight: bold;
+    color: #03352c;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+  .Overview-Div p {
+    font-size: 20px;
+    font-family: "Times New Roman", Times, serif;
+    color: #111111;
+    margin-left: 30px;
+    margin-top: 20px;
+  }
+  .Director-Writer {
+    color: #03352c;
+    margin-left: 60px;
+    margin-top: 20px;
+    width: 100%;
+  }
+  .Director-Writer h3 {
+    display: flex;
+    font-size: 20px;
+    font-family: "Times New Roman", Times, serif;
+    font-style: oblique;
+    font-weight: bold;
+    width: 45%;
+  }
+  .Director-Writer-Names {
+    display: flex;
+    font-size: 10px;
+    font-family: "Times New Roman", Times, serif;
+    font-style: oblique;
+    font-weight: bold;
+    color: #03352c;
+    width: 100%;
+    margin-left: 50px;
+    margin-top: 1px;
+  }
+  .Director-Writer-Names h4 {
+    display: flex;
+    font-size: 15px;
+    font-family: "Times New Roman", Times, serif;
+    font-style: oblique;
+    width: 45%;
+  }
+  
+  .Director-Writer-Names h4 {
+    width: 45%;
+  }
+  .trailer-Div {
+    margin: 20px;
+  }
+  .trailer-Div h3 {
+    font-size: 30px;
+    font-family: "Times New Roman", Times, serif;
+    font-style: oblique;
+    font-weight: bold;
+    color: #03352c;
+    margin-left: 50px;
+    margin-top: 20px;
+  }
+  .trailer-Div iframe {
+    height: 300px;
+    width: 500px;
+  }
